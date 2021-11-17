@@ -57,17 +57,22 @@ p{
     margin: 50px;
 }
 
-.inicio img {
+.inicio {
     margin: 30px 0;
+    display: flex;
 }
 
 .descricao {
     margin-top: -70px;
     margin-right: 694;
 }
+
+.Baixe{
+    margin-top: 100px;
+}
 .Baixe a {
     margin-left: 300px;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: #620C97;
     color: white;
     border-radius: 20px;
@@ -76,8 +81,9 @@ p{
     text-decoration: none;
 }
 
-.cadastro{
-    position: relative;
+.Cadastro{
+
+    margin-top: -150px;
     
 }
 
@@ -119,7 +125,6 @@ p{
 .download{
     display: flex;
     justify-content:center;
-    margin-top: -400px;
 }
 
 .baixeAgora {
@@ -179,5 +184,7 @@ p{
     height: 51px;
 }
 
-
+.iphone2 {
+    margin-top: -30px;
+}
     
