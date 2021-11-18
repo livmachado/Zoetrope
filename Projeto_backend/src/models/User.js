@@ -13,7 +13,7 @@ const User = sequelize.define('User', {
     Email: {
         type: DataTypes.STRING,
         allowNull: false
-    }
+    },
     DateOfBirth: {
         type: DataTypes.DATEONLY,
         allowNull:false
@@ -26,17 +26,14 @@ const User = sequelize.define('User', {
     PhoneNumber: {
         type: DataTypes.STRING,
     },
-    IdUsers: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-    }
 },
+)
 
 //DEFINICAO DOS RELACIONAMENTOS 
 
 
 User.associate = function(models) {
-    User.belongsTo(models.Plans, { });
+    User.hasOne(models.Plans);
 }
 
 module.exports = User;
