@@ -180,7 +180,6 @@ body{
     .description{
         margin: 0;
         text-align: center;
-        height: 75vh;
     }
     .description__image{
         width: 75vw;
