@@ -166,3 +166,30 @@ body{
     font-weight: 400;
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        display:block;
+        background-image: none;
+        margin: 10em 0 0 0;
+        height: 100vh;
+    }
+    .box__container{
+        margin: 2em 2em;
+    }
+    .description{
+        margin: 0;
+        text-align: center;
+        height: 75vh;
+    }
+    .description__image{
+        width: 75vw;
+    }
+    .devices__list{
+        display: block;
+    }
+    .footer__list{
+        display: block;
+    }
+
+}
